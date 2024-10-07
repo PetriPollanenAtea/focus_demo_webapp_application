@@ -1,5 +1,7 @@
 // index.js
 
+firstName = "Petri"
+
 /**
  * Required External Modules
  */
@@ -23,7 +25,7 @@ app.use(express.static(path.join(__dirname, "public")));
  * Routes Definitions
  */
 app.get("/", (req, res) => {
-    res.render("index", { title: "Home" });
+    res.render("index", { title: firstName });
   });
 
 /**
