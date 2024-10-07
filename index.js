@@ -4,6 +4,8 @@ var fs = require('fs');
 
 var dir = path.join(__dirname, 'public');
 
+const port = process.env.PORT || 3000;
+
 var mime = {
     html: 'text/html',
     txt: 'text/plain',
@@ -41,6 +43,6 @@ var server = http.createServer(function (req, res) {
   });
 });
 
-server.listen(3000, function () {
-  console.log('Listening on http://localhost:3000/');
+server.listen(port, function () {
+  console.log(`Server listening on port ${port}`);
 });
