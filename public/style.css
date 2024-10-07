@@ -1,7 +1,7 @@
 body {
     text-align: center;
     font-family: sans-serif;
-    background: url("taustakuva01.jpg") top center;
+    /* background: url("taustakuva01.jpg") top center; */
 }
 img.avatar {
     border-radius: 50%;
