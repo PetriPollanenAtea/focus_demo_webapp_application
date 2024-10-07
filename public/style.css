@@ -13,4 +13,6 @@ p.style {
 .WelcomeView {
     background: url("taustakuva01.jpg") left bottom;
     background-size: cover;
+    text-align: center;
+    font-family: sans-serif;
 }
