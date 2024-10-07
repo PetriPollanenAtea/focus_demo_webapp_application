@@ -1,5 +1,6 @@
 // index.js
 
+greeting = "Focus Demo"
 firstName = "Petri"
 
 /**
@@ -25,7 +26,7 @@ app.use(express.static(path.join(__dirname, "public")));
  * Routes Definitions
  */
 app.get("/", (req, res) => {
-    res.render("index", { title: firstName });
+    res.render("index", { title: greeting, name: firstName });
   });
 
 /**
