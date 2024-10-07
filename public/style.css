@@ -2,7 +2,6 @@ body {
     text-align: center;
     font-family: sans-serif;
     background: url("taustakuva01.jpg") left bottom;
-    background-size: cover;
 }
 img.avatar {
     border-radius: 50%;
