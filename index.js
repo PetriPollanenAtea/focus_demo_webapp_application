@@ -57,7 +57,7 @@ const router = express.Router();
 
 // Hello World for index page
 app.get('/', function (req, res) {
-    s = `<html><head><style>body {background-image: url('./taustakuva01.jpg'); background-size: cover;}</style></head><body><H3>Tervetuloa Focukseen ${name}!</H3></body></html>`
+    s = `<html><head><style>body {background-image: url('https://focusdemo1.azurewebsites.net/taustakuva01.jpg'); background-size: cover;}</style></head><body><H3>Tervetuloa Focukseen ${name}!</H3></body></html>`
     return res.send(s);
 })
 
