@@ -1,7 +1,7 @@
 // index.js
 
 greeting = "Focus Demo"
-firstName = "Timo"
+firstName = "Petri"
 
 /**
  * Required External Modules
